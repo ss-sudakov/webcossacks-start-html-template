@@ -1,0 +1,1 @@
+webcossacks-start-html-template
