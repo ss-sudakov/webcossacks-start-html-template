@@ -4,42 +4,8 @@
 @import "normalize"
 @import "bourbon"
 @import "_mixins/index"
+@import "base"
+@import "sections/hero"
+@import "sections/footer"
 
-*
-	-webkit-box-sizing: border-box
-	-moz-box-sizing: border-box
-	box-sizing: border-box
-	&:before, &:after
-		-webkit-box-sizing: border-box
-		-moz-box-sizing: border-box
-		box-sizing: border-box
-
-*::-webkit-input-placeholder
-	color: #666
-	opacity: 1
-
-*:-moz-placeholder
-	color: #666
-	opacity: 1
-
-*::-moz-placeholder
-	color: #666
-	opacity: 1
-
-*:-ms-input-placeholder
-	color: #666
-	opacity: 1
-	
-html, body
-	height: 100%
-
-body
-	$map: (1920px: 14px, 768px: 16px)
-	@include poly-fluid-sizing('font-size',$map)
-	min-width: 320px
-	position: relative
-	line-height: 1.65
-	font-family: $default-font
-	overflow-x: hidden	
-	
 @import "media" // Всегда в конце
