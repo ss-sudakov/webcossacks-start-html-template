@@ -1,0 +1,44 @@
+// Брейк поинты для set-fluide()
+$bp-l: 320;
+$bp-lm: 575;
+$bp-small-start: 750;
+$bp-small-start-plus1: 751;
+$bp-m: 768;
+$bp-mm: 900;
+$bp-tablet: 1024;
+$bp-tablet-1: 1025;
+$bp-dog-cat: 1080;
+$xl: 1180;
+$bp-desktop: 1200;
+$bp-menu: 1300;
+$bp-dog-cat-btns: 1400;
+$bp-big-start: 1680;
+$bp-xl: 1908;
+
+// Брейк поинты для media()
+$breakpoints: (
+        start: 320px,
+        order-top-reorginize: 400px,
+        l-seo: 500px,
+        l: 575px,
+        footer-menu: 650px,
+        l-products: 700px,
+        l-start: 751px,
+        bp-m-1: 767px,
+        bp-m: 768px,
+        m-btn-footer: 850px,
+        mm: 960px,
+        bp-cols-menu-1003: 1003px,
+        bp-tablet: 1024px,
+        bp-tablet-1: 1025px,
+        bp-cols-menu: 1035px,
+        bp-dog-cat: 1080px,
+        xl: 1180px,
+        bp-desktop: 1200px,
+        bp-menu: 1300px,
+        bp-dog-cat-btns: 1400px,
+        bp-dog-cat-line: 1500px,
+        xl-start: 1680px,
+        xxl: 1720px,
+        xxxl: 1920px
+) !default
